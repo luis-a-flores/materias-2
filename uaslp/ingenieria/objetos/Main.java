@@ -30,8 +30,12 @@ public class Main {
         Grupo []grupos = new Grupo[]{objetos01, objetos02, objetos03, algoritmos01, grafos01};
 
         for(Grupo grupo: grupos){
-            //TODO: definir el siguiente metodo
-            imprimeInformacionDelGrupo(grupo);
+            System.out.println("materia: "+ grupo.getNombreMateria());
+            System.out.println("clave: "+grupo.getClave());
+            System.out.println("creditos"+grupo.getCreditos());
+            System.out.println("profesor"+grupo.getNombreProfesor());
+            System.out.println("horario"+grupo.getHorario());
+            System.out.println("--------------------------------");
         }
 
 
